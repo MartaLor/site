@@ -7,7 +7,7 @@ lang: ru
 {% capture file_prefix %}Hardella-{{ site.data.download.current_version }}{% endcapture%}
 {% capture download_root %}https://github.com/vlsi/ide61131/releases/download/v{{ site.data.download.current_version }}/{{ file_prefix }}{% endcapture %}
 
-Текущая версия: Hardella {{ page.current_version }}
+Текущая версия: Hardella {{ site.data.download.current_version }}
 
 | Операционная система | Файл | Размер | Контрольная сумма |
 |----------------------|------|--------|-------------------|
