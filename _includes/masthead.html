@@ -1,0 +1,26 @@
+<div class="masthead">
+    <div class="masthead__inner-wrap">
+        <div class="masthead__menu">
+            <nav id="site-nav" class="greedy-nav">
+                <button><div class="navicon"></div></button>
+                <ul class="visible-links">
+                    <li class="masthead__menu-item masthead__menu-item--lg"><a href="{{ '/' | absolute_url }}"><img src="/assets/images/hardella.iconset/icon_128x128.png" style="height: 2em;"> {{ site.title }}</a></li>
+                    {% for tongue in site.languages %}
+                    {% if tongue != site.active_lang %}
+                    <li class="masthead__menu-item"><a href="{% if tongue == site.default_lang %} {{ page.url | absolute_url }} {% else %} {{ tongue | append: page.url | absolute_url }}{% endif %}">{{ tongue | capitalize }}</a></li>
+                    {% endif %}
+                    {% endfor %}
+                    {% for link in site.data.navigation.main %}
+                    {% if link.url contains 'http' %}
+                    {% assign domain = '' %}
+                    {% else %}
+                    {% assign domain = site.url | append: site.baseurl %}
+                    {% endif %}
+                    <li class="masthead__menu-item"><a href="{{ domain }}{{ link.url }}">{{ link.title }}</a></li>
+                    {% endfor %}
+                </ul>
+                <ul class="hidden-links hidden"></ul>
+            </nav>
+        </div>
+    </div>
+</div>

@@ -1,0 +1,1 @@
+<a href="http://localhost:8080/select/example/{{ include.addr }}" target="_blank"><img src="/assets/images/hardella.iconset/icon_64x64.png" style="width:1em;">{{ include.text }}</a>

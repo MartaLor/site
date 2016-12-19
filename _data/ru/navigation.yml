@@ -1,0 +1,60 @@
+main:
+  - title: "Новости"
+    url: /blog
+  - title: "Документация"
+    url: /docs/introduction
+  - title: "Форум"
+    url: https://groups.google.com/forum/#!forum/hardella-forum
+  - title: "Поддержать"
+    url: /donate
+  - title: "Скачать"
+    url: /download
+
+docs:
+  - title:
+    children:
+      - title: "Введение"
+        url: /docs/introduction/
+      - title: "Установка"
+        url: /docs/installation/
+      - title: "Обновление"
+        url: /docs/upgrade/
+      - title: "Список изменений"
+        url: /docs/changelog/
+
+  - title: Приёмы работы с Hardella
+    children:
+      - title: "Навигация по коду"
+        url: /docs/ide/navigation/
+      - title: "Редактирование кода"
+        url: /docs/ide/editor/
+
+  - title: AM1808 PRU (ПЛК110[М02])
+    children:
+      - title: "Возможности и ограничения"
+        url: /docs/pru/features-and-limits/
+      - title: "Создание проекта в Hardella"
+        url: /docs/pru/new-project/
+      - title: "Компиляция PRU проекта"
+        url: /docs/pru/project-build/
+      - title: "Настройка CoDeSys"
+        url: /docs/pru/codesys-setup/
+      - title: "Обмен данными с PRU"
+        url: /docs/pru/data-exchange/
+      - title: "Библиотека блоков"
+        url: /docs/pru/standard-library/
+
+  - title: Примеры программ AM1808 PRU
+    children:
+      - title: "Мигающие выходы"
+        url: /docs/pru/examples/four-blinkning-leds
+      - title: "Быстрый счётчик"
+        url: /docs/pru/examples/fast-counter
+      - title: "Быстрый энкодер"
+        url: /docs/pru/examples/fast-encoder
+      - title: "ШИМ"
+        url: /docs/pru/examples/fast-pwm
+      - title: "Шаговый двигатель"
+        url: /docs/pru/examples/step-motor
+      - title: "Точный останов мотора"
+        url: /docs/pru/examples/material-cutter

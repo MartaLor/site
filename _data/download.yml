@@ -1,0 +1,11 @@
+current_version: 1.6.0
+files:
+  - title: Windows
+    suffix: win.zip
+    size: 254 MB
+  - title: Mac OS
+    suffix: mac.zip
+    size: 241 MB
+  - title: Linux
+    suffix: linux.tar.gz
+    size: 251 MB

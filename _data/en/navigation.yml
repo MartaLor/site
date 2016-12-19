@@ -1,0 +1,58 @@
+main:
+  - title: "News"
+    url: /blog
+  - title: "Documentation"
+    url: /docs/introduction
+  - title: "Forum"
+    url: https://groups.google.com/forum/#!forum/hardella-forum
+  - title: "Donate"
+    url: /donate
+  - title: "Download"
+    url: /download
+
+docs:
+  - title:
+    children:
+      - title: "Introduction"
+        url: /docs/introduction/
+      - title: "Upgrade"
+        url: /docs/upgrade/
+      - title: "Changelog"
+        url: /docs/changelog/
+
+  - title: Hardella tricks
+    children:
+      - title: "Code browsing"
+        url: /docs/ide/navigation/
+      - title: "Code editing"
+        url: /docs/ide/editor/
+
+  - title: AM1808 PRU (PLC110[М02])
+    children:
+      - title: "Features and limitations"
+        url: /docs/pru/features-and-limits/
+      - title: "Creating a project in Hardella"
+        url: /docs/pru/new-project/
+      - title: "Compilation of a PRU project"
+        url: /docs/pru/project-build/
+      - title: "CoDeSys setup"
+        url: /docs/pru/codesys-setup/
+      - title: "PRU data exchange"
+        url: /docs/pru/data-exchange/
+      - title: "Standard library"
+        url: /docs/pru/standard-library/
+
+  - title: AM1808 PRU examples
+    children:
+      - title: "Blinking leds"
+        url: /docs/pru/examples/four-blinkning-leds
+      - title: "Fast counter"
+        url: /docs/pru/examples/fast-counter
+      - title: "Fast encoder"
+        url: /docs/pru/examples/fast-encoder
+      - title: "PWM output"
+        url: /docs/pru/examples/fast-pwm
+      - title: "Step motor"
+        url: /docs/pru/examples/step-motor
+      - title: "Precise motor control"
+        url: /docs/pru/examples/material-cutter
