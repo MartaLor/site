@@ -3,7 +3,7 @@ title: "Code editing"
 permalink: /docs/ide/editor/
 lang: en
 excerpt: "Code editing in Hardella IDE essentials"
-modified: 2016-12-14T22:39:43+03:00
+modified: 2016-12-19T18:50:00+03:00
 ---
 
 {% include toc icon="columns" title="Code editing" %}
@@ -40,84 +40,84 @@ Then you need to declare variables. In order to do that you can hit `tab` and th
 
 ### Variable declaration
 
-Для добавления элемента в список следует использовать `enter`. Т.е. нажимаем `enter` и Hardella создаёт "рыбу" для объявления переменной.
+In order to add an element to the list, you typically just need to hit `enter`. In other words, as soon as you hit `enter` Hardella generates template for the variable declaration.
 
- <img width="453" alt="Рыба объявления переменной" src="{{ "/assets/images/docs/ide/var-template.png" | absolute_url }}">
+ <img width="453" alt="Template for variable declaration" src="{{ "/assets/images/docs/ide/var-template.png" | absolute_url }}">
 
-Следует учитывать, что имя указывается отдельно, тип отдельно. Двоеточие посредине уже указано и с ним ничего делать не нужно.
+You need to specify variable name and type separate. The semicolon in between is already there and you don't need to type it.
 
-Пишем `x` (имя переменной), нажимаем `tab` (или стрелку вправо) для перехода к выбору типа переменной.
+Specify `x` for the variable name, and hit `tab` (or right arrow) to continue with data type declaration.
 
- <img width="107" alt="Указали имя переменной" src="{{ "/assets/images/docs/ide/var-without-type.png" | absolute_url }}">
+ <img width="107" alt="Variable name is specified" src="{{ "/assets/images/docs/ide/var-without-type.png" | absolute_url }}">
 
-Нужно как-то указать `BOOL` тип. Один вариант это взять и написать `BOOL` (большими буквами).
-Более интересный -- и спользованием автодополнения.
-Можно написать часть идентификатора, а можно вообще ничего не писать и нажать `ctrl+пробел`.
+Now you need to specify `BOOL` type somehow. One of the ways is just type  `BOOL` in capital letters.
+The more interesting way is to use autocomplete feature.
+You can start typing or you can just hit `ctrl+space` to invoke autocomplete.
 
- <img width="567" alt="Выбор типа переменной" src="{{ "/assets/images/docs/ide/type-autocomplete.png" | absolute_url }}">
+ <img width="567" alt="Datatype specification" src="{{ "/assets/images/docs/ide/type-autocomplete.png" | absolute_url }}">
 
-`BOOL` находится на втором месте, его можно выбрать стрелочками и нажать `enter`.
-Такой подход помогает когда точное называние блока забыто.
+`BOOL` is the second on the list, so you can use arrow keys to choose it and confirm with `enter`.
+This approach enables you to proceed even if you don't remember the full variable name.
 
-Хорошо, получили `x : BOOL`, но как обозначить, что это будет входная переменная?
+Well, we did achieve `x : BOOL`, however it does not mean the variable is `input` variable. How do we get there?
 
-#### Флаги input, output 
+#### `input` and `output` flags 
 
-Для указания `input`, `output` флагов, нужно разместить курсор слева от названия переменной (т.е. слева от `x`), нажать `пробел` и воспользоваться одним из следующих вариантов:
-  - напечатать `input` (или `output`)
-  - нажать `ctrl+пробел` и выбрать нужный вариант в меню:
-    <img width="352" alt="Флаги input, output" src="{{ "/assets/images/docs/ide/input-output.png" | absolute_url }}">
+In order to specify `input` and `output` flags, you need to place cursor to the left of the variable name (i.e. to the left of `x`), hit `space` and use one of the following possibilities:
+  - type `input` (or `output`)
+  - hit `ctrl+space` and pick the required option on the menu:
+    <img width="352" alt="input and output flags" src="{{ "/assets/images/docs/ide/input-output.png" | absolute_url }}">
   
-### Дублирование строк, блоков кода
+### Code line duplication
 
-Одной входной переменной явно мало, но можно её размножить клавишей `ctrl+d` (от слова duplicate).
-Нажимаем несколько раз и получаем такую картину:
-  <img width="165" alt="Размноженные переменные" src="{{ "/assets/images/docs/ide/vars-duplicated.png" | absolute_url }}">
+One input variable is not enough, so we can duplicate it with `ctrl+d` shortcut (that is named after duplicate).
+Hit that shortcuts several times and you'll get the following:
+  <img width="165" alt="Duplicated variables" src="{{ "/assets/images/docs/ide/vars-duplicated.png" | absolute_url }}">
 
-Вторая и третья переменные подкрашены красным, т.к. нехорошо когда несколько переменных имеют одинаковое название. 
+The second and the third variables are underlined with red since they result in duplicate variable name declaration error. 
 
-Редактируем имена, и меняем тип последней переменной с `input` на `output`. Для этого стираем `input` и добавляем `output`.
+Now you need to update variable names, and change the type of the last variable from `input` to `output`. In order to do that, just delete`input` and add `output` like you did before.
 
-Среда автоматически добавляет пустые строки между разнотипными группами переменных, поэтому в итоге код будет выглядеть так:
+The IDE adds empty divisor lines automatically between variables of different types, so the final result will look like the following:
 
-  <img width="173" alt="Переменные объявлены" src="{{ "/assets/images/docs/ide/vars-declared.png" | absolute_url }}">
+  <img width="173" alt="Variables are declared" src="{{ "/assets/images/docs/ide/vars-declared.png" | absolute_url }}">
 
-## Введение выражений
+## Editing expressions
 
-Переходим к телу ФБ, нажимаем `ctrl+пробел`, выбираем `StatementList`.
-После этого можно писать код на языке ST.
+In order to create body of a function block, you need to navigate to the body part, press `ctrl+space`, and pick `StatementList`.
+Now you can write ST code.
 
-Для того, чтобы получить `z := x OR y;`, нужно нажимать следующие клавиши:
-  1. `z` -- появится `z;`
-  1. `:=` -- появится `z := ___;`
-  1. `x` -- появится `z := x;`
-  1. `пробел`. Если после `x` не нажать пробел, то вместо `x OR` среда подумает, что мы имеем ввиду переменную с именем `xOR`
-  1. `OR`. В итоге будет `z := x OR ___;`
-  1. 'y'
+In order to produce `z := x OR y;`, you need to follow this sequence:
+  1. `z`. The screen will read: `z;`
+  1. `:=`. The screen will read: `z := ___;`
+  1. `x`. The screen will read: `z := x;`
+  1. `space`. If you omit the space after `x`, then IDE will think you mean variable named `xOR` instead of `x OR`
+  1. `OR`. The screen will read: `z := x OR ___;`
+  1. `y`
   
-Можно было зайти и с другого конца:
-  1. `:` -- появится `___ := ___;` Дело в том, что присваивание это единственная операция с двоеточием, поэтому сразу после довоеточия среда и понимает, что нужна операция присваивания
-  1. `z` -- появится `z := ___;`
-  1. `tab` для перехода в правую часть
-  1. `OR`, нажать `ctrl+пробел`, и выбрать в меню `or expression` -- появится `z := ___ OR ___;`
-  1. Далее заполнить левый и правый аргументы операции `OR` нужными переменными
+You can tackle the problem in another way:
+  1. `:`. The screen will read: `___ := ___;` The thing is the assignment is the only valid operation in this context that has double colon, so as soon as you type `:` IDE creates assignment statement
+  1. `z`. The screen will read: `z := ___;`
+  1. `tab` in order to move to the right side of the assignment
+  1. `OR`, press `ctrl+space`, and pick `or expression` on the menu. The screen will read `z := ___ OR ___;`
+  1. Then you can fill in left and right sides of the or expression
 
-## Копирование и вставка
+## Copy & paste
 
-`ctrl+c` / `ctrl+v` работает.
-Следует понимать, что среда следит за типами и смыслом выражения.
-Например, не получится скопировать в буфер конструкцию `IF ... END_IF` и вставить её на место объявления переменной (смысла, конечно, в такой операции немного, но стоит понимать, что и в других местах будет подобное поведение).
+`ctrl+c` / `ctrl+v` just works.
+It is important that IDE honors data types and the sense of the code.
+For instance, if you copy `IF ... END_IF` to the clipboard and try to paste it to the place of variable declaration, then nothing will happen. Well, it makes no sense to insert `IF` into variable declaration place, however IDE behaves similarly in other aspects.
 
-С другой стороны, скопировать объявление переменной и вставить рядом с другим объявлением -- можно, в том числе и в другом блоке.
+On the other hand, if you copy a variable declaration, then you could insert it side by side with another variable just fine.
 
-Большинство сложных конструкций копируются только целиком. Например, невозможно скопировать `IF` без закрывающего `END_IF` или без части `ELSIF` веток. Если реально нужно, то нужно скопировать целиком, а потом удалить лишнее.
+Typically statements are copied in whole. For instance, you can't copy `IF` without corresponsing `END_IF`. You cannot omit some of `ELSIF` branches. If you really need to copy just part of the `IF` statement, duplicate the statement and cut non required parts later.
 
-## Переименование переменных, блоков
+## Variable and funciton block rename
 
-Для переименования переменных и блоков достаточно просто перейти к объявлению переменной и переименовать. При этом, все использования переменной будут автоматически исправлены.
+In order to rename a variable or function block you just need to navigate to the declaration and rename it. All the usages of the variable in question will be update automatically.
 
-## Перемещение строк, блоков вверх-вниз
+## Code movement: up and down
 
-Очень часто приходится тасовать строки, параметры и целые фрагменты кода (например, внести операцию внутрь `IF` или, наоборот, вынести из ветки).
+It is often the case that you need to move lines around. For instance, you might need to move a couple of lines under `IF` statement, or move lines out of `IF` statement.
 
-Для этого есть горячие клавиши: `ctrl+shift+↑` и `ctrl+shift+↓`
+In order to do that, you can use `ctrl+shift+↑` and `ctrl+shift+↓` hotkeys.
