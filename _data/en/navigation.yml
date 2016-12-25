@@ -10,6 +10,12 @@ main:
   - title: "Download"
     url: /download
 
+pages:
+  news:
+    title: News
+  changelog:
+    title: Changelog
+
 docs:
   - title:
     children:

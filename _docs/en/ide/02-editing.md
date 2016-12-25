@@ -2,8 +2,8 @@
 title: "Code editing"
 permalink: /docs/ide/editor/
 lang: en
-excerpt: "Code editing in Hardella IDE essentials"
-modified: 2016-12-19T18:50:00+03:00
+excerpt: "Code editing in Hardella IDE essentials. Hardella is a capable IDE for PLC programming in 61131 languages (ST, etc)"
+modified: 2016-12-25T20:49:43+03:00
 ---
 
 {% include toc icon="columns" title="Code editing" %}

@@ -2,8 +2,8 @@
 title: "Навигация по коду"
 permalink: /docs/ide/navigation/
 lang: ru
-excerpt: "Основы перемещения по коду в Hardella IDE"
-modified: 2016-12-14T22:39:43+03:00
+excerpt: "Основы перемещения по коду в Hardella IDE. Hardella это среда для программирования ПЛК на языках группы 61131 (ST и т.п.)"
+modified: 2016-12-25T20:49:43+03:00
 ---
 {% include toc icon="columns" title="Навигация по коду" %}
 

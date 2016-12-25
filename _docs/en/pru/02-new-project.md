@@ -2,8 +2,8 @@
 title: "Creating a PRU project in Hardella"
 permalink: /docs/pru/new-project/
 lang: en
-excerpt: "Creating a PRU project in Hardella IDE"
-modified: 2016-12-19T19:20:00+03:00
+excerpt: "Creating a PRU project in Hardella IDE. Hardella is a capable IDE for PLC programming in 61131 languages (ST, etc)"
+modified: 2016-12-25T20:49:43+03:00
 ---
 
 In order to create a project you need the following:

@@ -6,10 +6,13 @@ permalink: /
 header:
   overlay_color: "#4269bc"
   overlay_filter: "linear-gradient(-45deg, #4253BD, #427FBD)"
-  cta_label: "Download"
+  cta_label: "Download Hardella 1.6.1"
   cta_btn_class: 'btn--primary'
   cta_url: "/download"
-excerpt: "Smart programming enviroment for PLC (61131 ST & Co)"
+excerpt: "Smart programming environment for PLC (61131 ST & Co)"
+description: >
+  Hardella is a capable IDE for PLC programming in 61131 languages.
+  It focuses on developer productivity and on the fly error checking.  
 intro: 
   - excerpt: 'Hardella aims to provide the features of modern IDEs like on the fly error highlight, find usages, context-aware autocomplete, and so on'
 feature_row:
@@ -42,7 +45,6 @@ feature_row2:
     alt: "On the fly error highlighting"
     title: "On the fly error highlighting"
     excerpt: 'Hardella highlights errors as you type making it a greater developer experience.'
-    url: "#test-link"
     btn_label: "Read More"
     btn_class: "btn--inverse"
 feature_row3:

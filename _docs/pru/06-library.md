@@ -2,8 +2,8 @@
 title: "Библиотека блоков"
 permalink: /docs/pru/standard-library/
 lang: ru
-excerpt: "Описание PRU блоков в базовой поставке Hardella IDE"
-modified: 2016-12-19T18:53:00+03:00
+excerpt: "Описание PRU блоков в базовой поставке Hardella IDE. Hardella это среда для программирования ПЛК на языках группы 61131 (ST и т.п.)"
+modified: 2016-12-25T20:49:43+03:00
 ---
 
 {% include toc icon="columns" title="Библиотека блоков" %}

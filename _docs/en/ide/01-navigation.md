@@ -2,8 +2,8 @@
 title: "Code browsing"
 permalink: /docs/ide/navigation/
 lang: en
-excerpt: "Code browsing in Hardella IDE"
-modified: 2016-12-14T22:39:43+03:00
+excerpt: "Code browsing in Hardella IDE. Hardella is a capable IDE for PLC programming in 61131 languages (ST, etc)"
+modified: 2016-12-25T20:49:43+03:00
 ---
 {% include toc icon="columns" title="Code browsing" %}
 

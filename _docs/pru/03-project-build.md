@@ -2,8 +2,8 @@
 title: "Компиляция PRU проекта"
 permalink: /docs/pru/project-build/
 lang: ru
-excerpt: "Инструкция по компиляции PRU проекта Hardella IDE"
-modified: 2016-12-14T22:39:43+03:00
+excerpt: "Инструкция по компиляции PRU проекта Hardella IDE. Hardella это среда для программирования ПЛК на языках группы 61131 (ST и т.п.)"
+modified: 2016-12-25T20:49:43+03:00
 ---
 
 Для сборки проекта нужно

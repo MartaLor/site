@@ -2,8 +2,8 @@
 title: "Введение"
 permalink: /docs/introduction/
 lang: ru
-excerpt: "Описание среды Hardella IDE"
-modified: 2016-12-14T22:39:43+03:00
+excerpt: "Описание среды Hardella IDE. Hardella это среда для программирования ПЛК на языках группы 61131 (ST и т.п.)"
+modified: 2016-12-25T20:49:43+03:00
 ---
 
 Среда программирования Hardella делает создание программ для ПЛК проще.

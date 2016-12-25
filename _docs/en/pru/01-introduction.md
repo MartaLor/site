@@ -2,8 +2,8 @@
 title: "Features and limits"
 permalink: /docs/pru/features-and-limits/
 lang: en
-excerpt: "Features and limits of PRU programming in Hardella IDE"
-modified: 2016-12-19T19:05:00+03:00
+excerpt: "Features and limits of PRU programming in Hardella IDE. Hardella is a capable IDE for PLC programming in 61131 languages (ST, etc)"
+modified: 2016-12-25T20:49:43+03:00
 ---
 {% include toc icon="columns" title="Hardella for PRU programms" %}
 

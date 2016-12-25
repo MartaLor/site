@@ -2,8 +2,8 @@
 title: "Точная нарезка материала"
 permalink: /docs/pru/examples/material-cutter/
 lang: ru
-excerpt: "Выполняем нарезку материала в Hardella IDE"
-modified: 2016-12-14T22:39:43+03:00
+excerpt: "Выполняем нарезку материала в Hardella IDE. Hardella это среда для программирования ПЛК на языках группы 61131 (ST и т.п.)"
+modified: 2016-12-25T20:49:43+03:00
 ---
 
 Эту задачу описали на [форуме owen.ru](http://www.owen.ru/forum/showthread.php?t=23600&page=9&p=222957&viewfull=1#post222957).

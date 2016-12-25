@@ -2,8 +2,8 @@
 title: "Installation"
 permalink: /docs/installation/
 lang: en
-excerpt: "Installation instructions for Hardella IDE"
-modified: 2016-12-14T22:39:43+03:00
+excerpt: "Installation instructions for Hardella IDE. Hardella is a capable IDE for PLC programming in 61131 languages (ST, etc)"
+modified: 2016-12-25T20:49:43+03:00
 ---
 
 You would require the following to install Hardella IDE:

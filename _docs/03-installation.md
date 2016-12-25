@@ -2,8 +2,8 @@
 title: "Установка"
 permalink: /docs/installation/
 lang: ru
-excerpt: "Инструкция по установке и настройке Hardella IDE"
-modified: 2016-12-14T22:39:43+03:00
+excerpt: "Инструкция по установке и настройке Hardella IDE. Hardella это среда для программирования ПЛК на языках группы 61131 (ST и т.п.)"
+modified: 2016-12-25T20:49:43+03:00
 ---
 
 Для установки и запуска Hardella IDE потребуется:

@@ -2,8 +2,8 @@
 title: "Настройка CoDeSys для PRU программирования"
 permalink: /docs/pru/codesys-setup/
 lang: ru
-excerpt: "Настройка CoDeSys для PRU программирования в Hardella IDE"
-modified: 2016-12-14T22:39:43+03:00
+excerpt: "Настройка CoDeSys для PRU программирования в Hardella IDE. Hardella это среда для программирования ПЛК на языках группы 61131 (ST и т.п.)"
+modified: 2016-12-25T20:49:43+03:00
 ---
 
 В двух словах: нужно загрузить `.prg` и `.exp` файлы, и добавить библиотеку `pruAccessLib.lib`.

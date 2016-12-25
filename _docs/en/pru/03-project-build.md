@@ -2,8 +2,8 @@
 title: "PRU project build"
 permalink: /docs/pru/project-build/
 lang: en
-excerpt: "This page describes how to build PRU project in Hardella IDE"
-modified: 2016-12-19T19:35:00+03:00
+excerpt: "This page describes how to build PRU project in Hardella IDE. Hardella is a capable IDE for PLC programming in 61131 languages (ST, etc)"
+modified: 2016-12-25T20:49:43+03:00
 ---
 
 In order to build the project you need the following:
