@@ -5,6 +5,7 @@ main:
     url: /docs/introduction
   - title: "Forum"
     url: https://groups.google.com/forum/#!forum/hardella-forum
+    new_window: true
   - title: "Donate"
     url: /donate
   - title: "Download"
