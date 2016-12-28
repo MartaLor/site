@@ -7,7 +7,7 @@ lang: ru
 {% capture file_prefix %}Hardella-{{ site.data.download.current_version }}{% endcapture%}
 {% capture download_root %}https://github.com/Hardella/ide61131/releases/download/v{{ site.data.download.current_version }}/{{ file_prefix }}{% endcapture %}
 
-Текущая версия: Hardella {{ site.data.download.current_version }} (см [список изменений](/docs/changelog))
+Текущая версия: Hardella {{ site.data.download.current_version }} (см [список изменений](/docs/changelog/))
 
 | Операционная система | Файл | Размер | Контрольная сумма |
 |----------------------|------|--------|-------------------|
@@ -16,7 +16,7 @@ lang: ru
 
 Для работы Hardella IDE нужна Java 8. Скачать java можно с [сайта oracle.com](http://www.oracle.com/technetwork/java/javase/downloads/jdk8-downloads-2133151.html) (нужная ссылка -- Java SE Development Kit).
 
-Инструкция по установке проста: [достаточно распаковать Hardella](/docs/installation) и всё.
+Инструкция по установке проста: [достаточно распаковать Hardella](/docs/installation/) и всё.
 
 
 После загрузки можете ознакомиться с [примерами PRU программ](/docs/pru/examples/four-blinkning-leds/)

@@ -18,7 +18,7 @@ Java 8 setup:
   1. Setup it: next, next, next, ...
 
 Hardella IDE setup:
-  1. Navigate to [download](/download) page
+  1. Navigate to [download](/download/) page
   1. Pick an archive for your operating system
   1. Unzip the archive. Please use the foloder **without spaces**.
      For instance, `c:\test\Hardella` is a good choice, while `c:\my documents\Hardella` might fail.

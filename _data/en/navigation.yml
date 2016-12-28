@@ -1,15 +1,15 @@
 main:
   - title: "News"
-    url: /blog
+    url: /blog/
   - title: "Documentation"
-    url: /docs/introduction
+    url: /docs/introduction/
   - title: "Forum"
     url: https://groups.google.com/forum/#!forum/hardella-forum
     new_window: true
   - title: "Donate"
-    url: /donate
+    url: /donate/
   - title: "Download"
-    url: /download
+    url: /download/
 
 pages:
   news:
@@ -52,14 +52,14 @@ docs:
   - title: AM1808 PRU examples
     children:
       - title: "Blinking leds"
-        url: /docs/pru/examples/four-blinkning-leds
+        url: /docs/pru/examples/four-blinkning-leds/
       - title: "Fast counter"
-        url: /docs/pru/examples/fast-counter
+        url: /docs/pru/examples/fast-counter/
       - title: "Fast encoder"
-        url: /docs/pru/examples/fast-encoder
+        url: /docs/pru/examples/fast-encoder/
       - title: "PWM output"
-        url: /docs/pru/examples/fast-pwm
+        url: /docs/pru/examples/fast-pwm/
       - title: "Step motor"
-        url: /docs/pru/examples/step-motor
+        url: /docs/pru/examples/step-motor/
       - title: "Precise motor control"
-        url: /docs/pru/examples/material-cutter
+        url: /docs/pru/examples/material-cutter/

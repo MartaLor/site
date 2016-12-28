@@ -1,15 +1,15 @@
 main:
   - title: "Новости"
-    url: /blog
+    url: /blog/
   - title: "Документация"
-    url: /docs/introduction
+    url: /docs/introduction/
   - title: "Форум"
     url: https://groups.google.com/forum/#!forum/hardella-forum
     new_window: true
   - title: "Поддержать"
-    url: /donate
+    url: /donate/
   - title: "Скачать"
-    url: /download
+    url: /download/
 
 docs:
   - title:

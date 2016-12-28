@@ -16,7 +16,7 @@ Current version: Hardella {{ site.data.download.current_version }} (see [changel
 
 Java 8 is required to run Hardella IDE. You can get Java from [oracle.com](http://www.oracle.com/technetwork/java/javase/downloads/jdk8-downloads-2133151.html) (pick Java SE Development Kit).
 
-Hardella requires no installation: you need just [unzip it](/docs/installation) an that is it.
+Hardella requires no installation: you need just [unzip it](/docs/installation/) an that is it.
 
 
 Please check Hardella [tutorials](/docs/pru/examples/four-blinkning-leds/)

@@ -21,7 +21,7 @@ As you hit `OK`, IDE will open the project:
 
 In the created project, every PRU core executes its own program. PRU0 operates at 500 ms cycle time, and PRU1 uses 250 ms cycle time. It does not make much sense in such high cycle times, however that makes it simpler for the naked eye to observe the execution. PRU cycle does not affect the main PLC cycle, so there's no harm in such cycle times.
 
-You can read more on that example in the [examples section](/docs/pru/examples/four-blinkning-leds)
+You can read more on that example in the [examples section](/docs/pru/examples/four-blinkning-leds/)
 
 The project is ready to be started.
 
