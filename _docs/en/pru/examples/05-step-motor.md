@@ -1,7 +1,7 @@
 ---
 title: "Step motor control"
 permalink: /docs/pru/examples/step-motor/
-lang: ru
+lang: en
 excerpt: "Step motor programming in Hardella IDE via STEP/DIR interface. Hardella is a capable IDE for PLC programming in 61131 languages (ST, etc)"
 modified: 2016-12-25T20:49:43+03:00
 ---
