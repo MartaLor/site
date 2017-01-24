@@ -3,7 +3,7 @@ title: "CoDeSys setup for PRU programming"
 permalink: /docs/pru/codesys-setup/
 lang: en
 excerpt: "CoDeSys setup for PRU programming in Hardella IDE. Hardella is a capable IDE for PLC programming in 61131 languages (ST, etc)"
-modified: 2016-12-25T20:49:43+03:00
+modified: 2017-01-09T22:30:00+03:00
 ---
 
 To make a long story short: you need to upload `.prg` and `.exp` files, and add `pruAccessLib.lib` library.
@@ -18,7 +18,7 @@ Before you start programming PRU cores, you need to switch them into free progra
 In order to prepare the PLC you need:
  1. Upload `PRU0.prg` file to the PLC (and `PRU1.prg`, if that is required) via CoDeSys menu `Online` > `Write file to PLC`
  
- 1. Reboot the PLC
+ 1. Reboot the PLC by shutting down the power
 
 ## Import .exp code to CoDeSys project
 
