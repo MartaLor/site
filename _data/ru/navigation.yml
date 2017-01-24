@@ -6,7 +6,7 @@ main:
   - title: "Форум"
     url: https://groups.google.com/forum/#!forum/hardella-forum
     new_window: true
-  - title: "Поддержать"
+  - title: "Сколько стоит?"
     url: /donate/
   - title: "Скачать"
     url: /download/
