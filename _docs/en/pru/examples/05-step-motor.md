@@ -3,7 +3,7 @@ title: "Step motor control"
 permalink: /docs/pru/examples/step-motor/
 lang: en
 excerpt: "Step motor programming in Hardella IDE via STEP/DIR interface. Hardella is a capable IDE for PLC programming in 61131 languages (ST, etc)"
-modified: 2016-12-25T20:49:43+03:00
+modified: 2017-01-24T18:30:00+03:00
 ---
 
 
@@ -25,17 +25,23 @@ We need to [build the project](/docs/pru/project-build/) and [load it to CoDeSys
 
 Here's how we would control the step motor from the CoDeSys program:
 
-    StepperConfig_Pru0Init(); (* PRU0 initialization *)
+    SteppersConfig_Pru0Init(); (* PRU0 initialization *)
     (* PRU is up and running, now we can exchange the data *)
-    StepperConfig_Pru0MemoryTransfer(
+
+    SteppersConfig_Pru0MemoryRead(); (* read data from PRU0 *)
+    
+    (* Execute program logic *)
+    SteppersConfig_Pru0MemoryWrite.STEPPER_PRU0_stepper_enable :=
+      SteppersConfig_Pru0MemoryRead.STEPPER_PRU0_stepper_state <> STOP_STEPPER_RUN_STATE;
+    
+    (* Write data to PRU0 *)
+    SteppersConfig_Pru0MemoryWrite(
       STEPPER_PRU0_dir := TRUE,
       STEPPER_PRU0_stepper_accel_ramp := 100,
       STEPPER_PRU0_stepper_decel_ramp := 100,
       STEPPER_PRU0_stepper_max_speed := 30,
       STEPPER_PRU0_stepper_min_speed := 0,
-      STEPPER_PRU0_stepper_quantity := 100,
-      STEPPER_PRU0_stepper_enable :=
-        StepperConfig_Pru0MemoryTransfer.STEPPER_PRU0_stepper_state <> STOP_STEPPER_RUN_STATE
+      STEPPER_PRU0_stepper_quantity := 100
     );
 
 - `quantity`,  -- number of pulses to generate

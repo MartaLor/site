@@ -1,4 +1,4 @@
-current_version: 1.6.1
+current_version: 1.6.2
 files:
   - title: <i class="fa fa-windows" aria-hidden="true"></i> Windows
     suffix: win.zip
@@ -8,4 +8,4 @@ files:
     size: 230 MB
   - title: <i class="fa fa-linux" aria-hidden="true"></i> Linux
     suffix: linux.tar.gz
-    size: 239 MB
+    size: 240 MB

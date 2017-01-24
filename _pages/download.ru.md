@@ -21,4 +21,4 @@ lang: ru
 
 После загрузки можете ознакомиться с [примерами PRU программ](/docs/pru/examples/four-blinkning-leds/)
 
-GPG подписи созданы ключём 2048R/410C47B1 Vladimir Sitnikov (fingerprint = 1A60 90D3 223D CA95 BFD2  5C0E 38F4 7D3E 410C 47B1). Если хотите проверить `.asc` подпись, можете загрузить ключ с [сервера MIT](http://pgp.mit.edu/).
+GPG подписи созданы ключом 2048R/410C47B1 Vladimir Sitnikov (fingerprint = 1A60 90D3 223D CA95 BFD2  5C0E 38F4 7D3E 410C 47B1). Если хотите проверить `.asc` подпись, можете загрузить ключ с [сервера MIT](http://pgp.mit.edu/).
