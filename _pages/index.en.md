@@ -6,7 +6,7 @@ permalink: /
 header:
   overlay_color: "#4269bc"
   overlay_filter: "linear-gradient(-45deg, #4253BD, #427FBD)"
-  cta_label: "Download Hardella 1.6.2"
+  cta_label: "Download Hardella 1.7.0 (2017-03-20)"
   cta_btn_class: 'btn--primary'
   cta_url: "/download"
 excerpt: "Smart programming environment for PLC (61131 ST & Co)"

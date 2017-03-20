@@ -1,11 +1,11 @@
-current_version: 1.6.2
+current_version: 1.7.0
 files:
   - title: <i class="fa fa-windows" aria-hidden="true"></i> Windows
     suffix: win.zip
-    size: 242 MB
+    size: 250 MB
   - title: <i class="fa fa-apple" aria-hidden="true"></i> Mac OS
     suffix: mac.zip
-    size: 230 MB
+    size: 238 MB
   - title: <i class="fa fa-linux" aria-hidden="true"></i> Linux
     suffix: linux.tar.gz
-    size: 240 MB
+    size: 247 MB

@@ -13,6 +13,22 @@ permalink: /updates/updates.xml
 
 		<channel id="Hardella_release" name="Hardella IDE" status="release" url="https://hardella.com/download"
 				 feedback="https://github.com/Hardella/ide61131" majorVersion="1">
+			<build number="162.2068" version="1.7.0" releaseDate="20170320">
+				<message><![CDATA[
+<p>Hardella 1.7.0 is now available.</p>
+<ul>
+<li>Fixed: PRU-host communication (it was broken in 1.6.2)</li>
+<li>Fixed: PDM_DW output was inversed</li>
+<li>New feature: PRU cycle statistics (duration of the PRU program, and duration of PRU cycle)</li>
+<li>New feature: comments after IF, ELSIF, etc</li>
+</ul>
+<p></p>
+]]></message>
+				<button name="More Information" url="https://hardella.com/en/blog/2017/03/20/hardella-1.7.0-released/"/>
+				<button name="Download" url="https://hardella.com/download" download="true"/>
+				<patch from="162.2067" size="8"/>
+				<patch from="162.2066" size="9"/>
+			</build>
 			<build number="162.2067" version="1.6.2" releaseDate="20170124">
 				<message><![CDATA[
 <p>Hardella 1.6.2 is now available.</p>
