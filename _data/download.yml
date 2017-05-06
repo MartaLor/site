@@ -1,4 +1,4 @@
-current_version: 1.7.0
+current_version: 1.7.1
 files:
   - title: <i class="fa fa-windows" aria-hidden="true"></i> Windows
     suffix: win.zip
