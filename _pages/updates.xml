@@ -13,6 +13,21 @@ permalink: /updates/updates.xml
 
 		<channel id="Hardella_release" name="Hardella IDE" status="release" url="https://hardella.com/download"
 				 feedback="https://github.com/Hardella/ide61131" majorVersion="1">
+			<build number="162.2070" version="1.7.2" releaseDate="20170616">
+				<message><![CDATA[
+<p>Hardella 1.7.2 is now available.</p>
+<ul>
+<li>PRU: variable initializers are not honored (previously they were just ignored)</li>
+</ul>
+<p></p>
+]]></message>
+				<button name="More Information" url="https://hardella.com/en/blog/2017/06/16/hardella-1.7.2-released/"/>
+				<button name="Download" url="https://hardella.com/download" download="true"/>
+				<patch from="162.2069" size="1"/>
+				<patch from="162.2068" size="1"/>
+				<patch from="162.2067" size="8"/>
+				<patch from="162.2066" size="9"/>
+			</build>
 			<build number="162.2069" version="1.7.1" releaseDate="20170506">
 				<message><![CDATA[
 <p>Hardella 1.7.1 is now available.</p>

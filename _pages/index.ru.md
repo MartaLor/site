@@ -6,7 +6,7 @@ permalink: /
 header:
   overlay_color: "#4269bc"
   overlay_filter: "linear-gradient(-45deg, #4253BD, #427FBD)"
-  cta_label: "Загрузить Hardella 1.7.1 (2017-05-06)"
+  cta_label: "Загрузить Hardella 1.7.2 (2017-06-16)"
   cta_btn_class: 'btn--primary'
   cta_url: "/download"
 excerpt: "Удобная среда разработки для ПЛК (ST 61131 и т.п.)"
