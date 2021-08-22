@@ -13,16 +13,13 @@
 # you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
-title: Hardella IDE
-email: admin@hardella.com
-description: > # this means to ignore newlines until "baseurl:"
-  Hardella is an IDE for PLC programming. It focuses on developer productivity and on the fly error checking.
-baseurl: "" # the subpath of your site, e.g. /blog
-#url: "https://hardella.com" # the base hostname & protocol for your site, e.g. http://example.com
-twitter_username: hardellaide
+# Site settings
+title: BFFA
+# email: Martaadmin@hardella.com
+description:  # this means to ignore newlines until "baseurl:"
 
 author:
-  github: Hardella
+
 
 comments:
   provider               : "disqus" # false (default), "disqus", "discourse", "facebook", "google-plus", "staticman", "custom"
@@ -35,7 +32,7 @@ analytics:
 # Build settings
 future: true
 markdown: kramdown
-theme: "minimal-mistakes-jekyll"
+# theme: "minimal-mistakes-jekyll"
 gems:
   - jekyll-feed
   - jekyll-polyglot
@@ -61,7 +58,7 @@ include: ["_pages"]
 defaults:
   - scope:
       path: ""
-      type: docs
+      type: posts
     values:
       layout: single
       read_time: false
