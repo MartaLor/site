@@ -32,7 +32,8 @@ analytics:
 # Build settings
 future: true
 markdown: kramdown
-# theme: "minimal-mistakes-jekyll"
+theme: "minimal-mistakes-jekyll"
+minimal_mistakes_skin    : "default" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
 gems:
   - jekyll-feed
   - jekyll-polyglot
