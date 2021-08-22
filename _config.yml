@@ -56,9 +56,7 @@ collections:
     output: true
     permalink: /blog/:year/:month/:day/:title/
 
-include:
-   - .htaccess
-   - ["_pages"]
+include: ["_pages"]
 
 defaults:
   - scope:
